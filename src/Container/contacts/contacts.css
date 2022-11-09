@@ -1,0 +1,17 @@
+.contacts{
+    width: 100%;
+    height: auto;
+    
+}
+a{
+    color: black;
+}
+a:hover{
+    color: darkgrey
+}
+h2:hover{
+    color:gold;
+}
+.social{
+    gap: 50px;
+}

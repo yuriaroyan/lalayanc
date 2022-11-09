@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.aboutus>img{
+    width: 600px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 25px 25px rgb(201, 199, 201);
+    margin-left: 100px;
+}
+.abouttext>p{
+    font-size: 20px;
+    text-align: center;
+    padding: 180px;
+    font-family: sans-serif;
+}
+
+.aboutus{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+}
