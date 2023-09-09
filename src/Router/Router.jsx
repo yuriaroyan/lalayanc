@@ -8,20 +8,23 @@ import { Galery } from "../Container/galery/Galery"
 import { Aboutus } from "../Container/aboutus/Aboutus"
 import { Contacts } from "../Container/contacts/Contacts"
 import '../app.css'
+import {useState} from "react";
 const Router = () => {
-
+const [openMenu,setOpenMenu]=useState(window.innerWidth>991 ? true :false)
     return (
 
         <>
-
-
             <BrowserRouter>
                 <div className="fdr header">
                     <div className="logo">
                         <img className='img2' src="img/logo.jpg" alt="" />
                     </div>
-                    <nav>
-
+                    <div className="mobileMenu">
+                        <h2>Սեղմիր</h2>
+                        <i style={{fontSize:"24px"}} className="fa fa-arrow-down" aria-hidden="true"></i>
+                        <i onClick={()=>setOpenMenu(!openMenu)}  style={{fontSize:"40px",color:'#d4af37'}} className="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                    {openMenu && <nav>
                         <ul>
                             <img src="img/ring.png" alt="" />
                             <li><Link to='/'>Գլախավոր</Link></li>
@@ -37,7 +40,7 @@ const Router = () => {
 
                         </ul>
 
-                    </nav>
+                    </nav>}
                 </div>
 
                 <Routes>

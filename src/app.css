@@ -2,7 +2,7 @@ nav {
     margin-left: 24px
 }
 
-nav>ul {
+nav > ul {
 
     display: inline-flex;
     flex-direction: row;
@@ -11,27 +11,31 @@ nav>ul {
     padding: 0;
 
 }
+.mobileMenu{
+    display: none;
 
-ul>li {
+}
+
+ul > li {
 
     padding: 8px;
     list-style: none;
 }
 
-ul>li>a {
+ul > li > a {
     text-decoration: none;
     font-family: sans-serif;
     color: black;
     font-size: 17px;
 }
 
-ul>li>a:hover {
+ul > li > a:hover {
 
     color: gold;
     cursor: pointer
 }
 
-.logo>img {
+.logo > img {
 
     width: 300px;
     height: 300px;
@@ -61,16 +65,23 @@ ul>li>a:hover {
 
 }
 
-ul>img {
+ul > img {
     width: 50px;
     height: 50px;
 }
 
 @media only screen and (max-width: 450px) {
-    nav>ul {
+    nav > ul {
         display: flex;
         flex-direction: column;
         margin: auto;
+    }
+
+    .mobileMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 24px 0
     }
 
     .header {
@@ -93,12 +104,12 @@ ul>img {
         margin: auto auto 50px auto;
     }
 
-    .home1>img {
+    .home1 > img {
         max-width: 250px;
         height: 250px;
     }
 
-    .home2>img {
+    .home2 > img {
         max-width: 250px;
         height: 250px;
     }
@@ -109,38 +120,38 @@ ul>img {
         margin: auto;
     }
 
-    .home2>h3 {
+    .home2 > h3 {
 
         font-size: 18px;
     }
 
-    .home2>h3>span {
+    .home2 > h3 > span {
 
         text-align: center;
         font-family: monospace;
         font-size: 18px;
     }
 
-    .home2>h3>p {
+    .home2 > h3 > p {
 
         text-align: center;
         font-family: monospace;
         font-size: 18px;
     }
 
-    .home1>h3 {
+    .home1 > h3 {
 
         font-size: 18px;
     }
 
-    .home1>h3>span {
+    .home1 > h3 > span {
 
         text-align: center;
         font-family: monospace;
         font-size: 18px;
     }
 
-    .home1>h3>p {
+    .home1 > h3 > p {
 
         text-align: center;
         font-family: monospace;
@@ -152,7 +163,7 @@ ul>img {
         margin: auto;
     }
 
-    .aboutus>img {
+    .aboutus > img {
         max-width: 250px;
         margin: auto;
         height: 500px;
@@ -177,7 +188,7 @@ ul>img {
         margin: auto;
     }
 
-    .galerypict>img {
+    .galerypict > img {
         max-width: 250px;
         height: 250px;
     }
@@ -188,19 +199,19 @@ ul>img {
 
     }
 
-    .video>iframe {
+    .video > iframe {
         max-width: 250px;
         height: 250px;
     }
 
-    .contacts>h2 {
+    .contacts > h2 {
         font-size: 15px;
     }
 
 
 }
 
-@media (max-width:1360px) {
+@media (max-width: 1360px) {
 
     .header {
         flex-direction: column;
@@ -218,11 +229,18 @@ ul>img {
 
 }
 
-@media (min-width:450px) and (max-width: 991px) {
-    nav>ul {
+@media (min-width: 450px) and (max-width: 991px) {
+    nav > ul {
         display: flex;
         flex-direction: column;
         margin: auto;
+    }
+
+    .mobileMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 24px 0;
     }
 
     .header {
@@ -246,12 +264,12 @@ ul>img {
         margin: auto auto 50px auto;
     }
 
-    .home1>img {
+    .home1 > img {
         max-width: 320px;
         height: 320px;
     }
 
-    .home2>img {
+    .home2 > img {
         max-width: 320px;
         height: 320px;
     }
@@ -262,38 +280,38 @@ ul>img {
         margin: auto;
     }
 
-    .home2>h3 {
+    .home2 > h3 {
 
         font-size: 18px;
     }
 
-    .home2>h3>span {
+    .home2 > h3 > span {
 
         text-align: center;
         font-family: monospace;
         font-size: 18px;
     }
 
-    .home2>h3>p {
+    .home2 > h3 > p {
 
         text-align: center;
         font-family: monospace;
         font-size: 18px;
     }
 
-    .home1>h3 {
+    .home1 > h3 {
 
         font-size: 18px;
     }
 
-    .home1>h3>span {
+    .home1 > h3 > span {
 
         text-align: center;
         font-family: monospace;
         font-size: 18px;
     }
 
-    .home1>h3>p {
+    .home1 > h3 > p {
 
         text-align: center;
         font-family: monospace;
@@ -305,7 +323,7 @@ ul>img {
         margin: auto;
     }
 
-    .aboutus>img {
+    .aboutus > img {
         max-width: 320px;
         margin: auto;
         height: 500px;
@@ -330,7 +348,7 @@ ul>img {
         margin: auto;
     }
 
-    .galerypict>img {
+    .galerypict > img {
         max-width: 320px;
         height: 320px;
     }
@@ -341,12 +359,12 @@ ul>img {
 
     }
 
-    .video>iframe {
+    .video > iframe {
         max-width: 320px;
         height: 320px;
     }
 
-    .contacts>h2 {
+    .contacts > h2 {
         font-size: 25px;
     }
 
