@@ -173,6 +173,7 @@ ul > img {
     .aboutus {
         flex-direction: column;
         margin: auto;
+        padding: 0 16px;
     }
 
     .aboutus > img {
@@ -333,6 +334,8 @@ ul > img {
     .aboutus {
         flex-direction: column;
         margin: auto;
+        padding: 0 16px
+    ;
     }
 
     .aboutus > img {

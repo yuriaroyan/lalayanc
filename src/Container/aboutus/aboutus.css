@@ -13,7 +13,6 @@
 .abouttext>p{
     font-size: 20px;
     text-align: center;
-    padding: 180px;
     font-family: sans-serif;
 }
 
@@ -21,7 +20,8 @@
 
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     justify-content: center;
+    gap: 48px;
+    align-items: unset !important;
 
 }
