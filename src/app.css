@@ -41,6 +41,18 @@ ul > li > a:hover {
     height: 300px;
 
 }
+.langOption{
+    width: 150px;
+    height: 30px;
+    margin-top: 16px;
+    background: #d4af37;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 .fdr {
     display: flex;

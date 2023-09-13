@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0c68d6b-085c-45f7-bd0e-bf211cf546ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/LanguageDropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/arm/translation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/ru/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Router/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router/Router.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +52,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\lalayans_project\src" />
+      <recent name="C:\Users\Lenovo\Desktop\lalayans_project\public\assets" />
+      <recent name="C:\Users\Lenovo\Desktop\lalayans_project\src\locales\ru" />
+      <recent name="C:\Users\Lenovo\Desktop\lalayans_project\src\locales\arm" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
