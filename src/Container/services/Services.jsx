@@ -78,7 +78,7 @@ export const Services = () => {
               <img src="img/fursh2.jpg" alt="" />
             </div>
              <div className='img'>
-              <img src="img/fursh3.jpg" alt="" />
+              <img src="img/fursh4.jpg" alt="" />
               </div>
 
           </div>
