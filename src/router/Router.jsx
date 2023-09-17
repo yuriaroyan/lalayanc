@@ -2,11 +2,11 @@ import {BrowserRouter} from "react-router-dom"
 import {Routes} from "react-router-dom"
 import {Route} from "react-router-dom"
 import {Link} from "react-router-dom"
-import {Services} from "../Container/services/Services"
-import {Home} from "../Container/home/Home"
-import {Galery} from "../Container/galery/Galery"
-import {Aboutus} from "../Container/aboutus/Aboutus"
-import {Contacts} from "../Container/contacts/Contacts"
+import {Services} from "../container/services/Services"
+import {Home} from "../container/home/Home"
+import {Galery} from "../container/galery/Galery"
+import {Aboutus} from "../container/aboutus/Aboutus"
+import {Contacts} from "../container/contacts/Contacts"
 import '../app.css'
 import {useTranslation} from "react-i18next";
 import {useState} from "react";
@@ -20,13 +20,17 @@ const Router = () => {
 
         <>
             <BrowserRouter>
+                <div className="translate_select">
+                    <LanguageDropdown/>
+                </div>
+
                 <div className="fdr header">
                     <div className="logo">
                         <img className='img2' src="img/logo.jpg" alt=""/>
-                        <LanguageDropdown/>
+
                     </div>
                     <div className="mobileMenu">
-                        <h2>Սեղմիր</h2>
+                        <h2>{t(`mobilePush`)}</h2>
                         <i style={{fontSize: "24px"}} className="fa fa-arrow-down" aria-hidden="true"></i>
                         <i onClick={() => setOpenMenu(!openMenu)} style={{fontSize: "40px", color: '#d4af37'}}
                            className="fa fa-bars" aria-hidden="true"></i>
@@ -36,13 +40,13 @@ const Router = () => {
                             <img src="img/ring.png" alt=""/>
                             <li><Link to='/'>{t(`home`)}</Link></li>
                             <img src="img/ring.png" alt=""/>
-                            <li><Link to='/aboutus'>Մեր մասին</Link></li>
+                            <li><Link to='/aboutus'>{t(`about_us`)}</Link></li>
                             <img src="img/ring.png" alt=""/>
-                            <li><Link to='/services'>Ծառայություններ</Link></li>
+                            <li><Link to='/services'>{t(`services`)}</Link></li>
                             <img src="img/ring.png" alt=""/>
-                            <li><Link to='/pictures'>Նկարներ</Link></li>
+                            <li><Link to='/pictures'>{t(`gallery`)}</Link></li>
                             <img src="img/ring.png" alt=""/>
-                            <li><Link to='/contacts'>Հետադարձ կապ</Link></li>
+                            <li><Link to='/contacts'>{t(`contacts`)}</Link></li>
                             <img src="img/ring.png" alt=""/>
 
                         </ul>

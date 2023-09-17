@@ -4,8 +4,8 @@ import App from './App';
 import i18n from "i18next";
 import {initReactI18next} from "react-i18next";
 import LanguageDetector from 'i18next-browser-languagedetector';
-import translationArm from '../src/locales/arm/translation.json'
-import translationRu from '../src/locales/ru/translation.json'
+import translationArm from './locales/arm/translation.json'
+import translationRu from './locales/ru/translation.json'
 
 
 const resource = {
@@ -21,9 +21,8 @@ i18n
     .use(LanguageDetector)
     .use(initReactI18next) // passes i18n down to react-i18next
     .init({
-        resources: resource,
-        lng: 'arm',
-        fallbackLng: 'arm',
+        resources: resource,lng: localStorage.getItem("i18nextLng") || "arm",
+        fallbackLng: localStorage.getItem("i18nextLng") || "arm",
         debug: true,
         keySeparator: false,
         interpolation: {

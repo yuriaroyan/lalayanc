@@ -5,17 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0c68d6b-085c-45f7-bd0e-bf211cf546ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6557564942662f09a31acc33c2668d997bf367dc6bd256fe5e5d13f725268846.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Container/aboutus/aboutus.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/aboutus/aboutus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/aboutus/Aboutus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/aboutus/Aboutus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/aboutus/aboutus.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/aboutus/aboutus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/contacts/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/contacts/contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/galery/Galery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/galery/Galery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/galery/galery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/galery/galery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/home/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/home/img/home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/home/img/home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/services/Services.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/services/service.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/services/service.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Router/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/Router.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LanguageDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LanguageDropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/arm/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/arm/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/ru/translation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +62,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\lalayans_project\src\Translate" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 const DropdownLanguage = () => {
     const { i18n } = useTranslation();
-    const [language, setLanguage] = useState("");
+    const [language, setLanguage] = useState(localStorage.getItem("i18nextLng") || "");
 
     const handleLangChange = evt => {
         const lang = evt.target.value;
